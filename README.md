@@ -67,10 +67,6 @@ There is no manual build step required for deployment. Simply push your changes 
 
 You can monitor the deployment status in the "Actions" tab of your GitHub repository.
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## 👨‍💻 Author
 
 **Yash Pawar**
