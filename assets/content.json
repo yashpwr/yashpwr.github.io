@@ -2,20 +2,20 @@
   "sidebar": {
     "avatar": "/assets/images/my-avatar.png",
     "name": "Yash Pawar",
-    "title": "Software Developer",
+    "title": "Full Stack Developer",
     "contacts": [
       {
         "icon": "fa-regular fa-address-card",
         "title": "CV",
         "link": "/assets/pdf/Resume.pdf",
         "text": "Download",
-        "download": true
+        "download": "Resume.pdf"
       },
       {
         "icon": "fa-regular fa-envelope",
         "title": "Email",
         "link": "mailto:asyncyash@gmail.com",
-        "text": "Work"
+        "text": "asyncyash@gmail.com"
       },
       {
         "icon": "fa-solid fa-location-dot",
@@ -73,28 +73,28 @@
           "name": "Onur Dikyar",
           "title": "Senior Application Developer at PXL Digital Solutions",
           "avatar": "/assets/images/testimonials/avatar-11.png",
-          "text": "<p>Despite his impressive technological knowledge, Furkan's most important characteristic is his flexible intelligence, personal discipline and reliability, rather than his programming skills. <br /><br />He is a problem solver and a fixer. <br /><br />From the very first meeting, you realize that you don't need to constantly check the work you have assigned to him/her.</p>"
+          "text": "<p>Despite his impressive technological knowledge, Yash's most important characteristic is his flexible intelligence, personal discipline and reliability, rather than his programming skills. <br /><br />He is a problem solver and a fixer. <br /><br />From the very first meeting, you realize that you don't need to constantly check the work you have assigned to him.</p>"
         },
         {
           "id": 2,
           "name": "Sungur Taş",
           "title": ".NET Developer at PXL Digital Solutions",
           "avatar": "/assets/images/testimonials/avatar-10.png",
-          "text": "<p>Furkan is a self-sacrificing and hard-working person who loves to work and has adopted the principle of working flawlessly in the projects he is responsible for. I worked in the same team with him on different projects, and he was a teammate who was keen on research and self-development.</p>"
+          "text": "<p>Yash is a self-sacrificing and hard-working person who loves to work and has adopted the principle of working flawlessly in the projects he is responsible for. I worked in the same team with him on different projects, and he was a teammate who was keen on research and self-development.</p>"
         },
         {
           "id": 3,
           "name": "Tahir Uzelli",
           "title": "Mobile Developer at PXL Digital Solutions",
           "avatar": "/assets/images/testimonials/avatar-9.png",
-          "text": "<p>During the periods we worked together with Furkan, the fact that he completed the tasks quickly and in a quality manner is the biggest indicator of his analytical intelligence and talent. someone I would always want to work with.</p>"
+          "text": "<p>During the periods we worked together with Yash, the fact that he completed the tasks quickly and in a quality manner is the biggest indicator of his analytical intelligence and talent. someone I would always want to work with.</p>"
         },
         {
           "id": 4,
           "name": "Muhammed Ceylan",
           "title": "Software Engineer at PXL Digital Solutions",
           "avatar": "/assets/images/testimonials/avatar-8.png",
-          "text": "<p>Furkan and I developed projects together in the same team. We did good work together with his fast problem solving, algorithmic thinking and discipline at the same time. <br /><br />He is also a very good team player and has always been a good teammate with his approach and sincere attitude.</p>"
+          "text": "<p>Yash and I developed projects together in the same team. We did good work together with his fast problem solving, algorithmic thinking and discipline at the same time. <br /><br />He is also a very good team player and has always been a good teammate with his approach and sincere attitude.</p>"
         },
         {
           "id": 5,
@@ -108,7 +108,7 @@
           "name": "Erdal Parmaksız",
           "title": "Software Manager at Ofmark",
           "avatar": "/assets/images/testimonials/avatar-6.png",
-          "text": "<p>During the period we worked together, it was a great pleasure to work with Furkan, especially his work discipline, ability to interpret events, ability to solve problems, practical intelligence. Even though we parted ways in this project, he is a friend that I would like to be in the same team in the future and that I can be a reference in every sense.</p>"
+          "text": "<p>During the period we worked together, it was a great pleasure to work with Yash, especially his work discipline, ability to interpret events, ability to solve problems, practical intelligence. Even though we parted ways in this project, he is a friend that I would like to be in the same team in the future and that I can be a reference in every sense.</p>"
         }
       ]
     },
@@ -145,6 +145,8 @@
           "title": "Freelance Full Stack Developer",
           "date": "2021 — Present",
           "description": [
+            "Developed full-stack web apps for SMEs and startups in sectors like e-commerce, education, and services.",
+            "Managed deployment and DevOps tasks using AWS, Docker, PM2, and GitHub Actions.",
             "Successfully delivered a variety of projects for clients worldwide.",
             "Specialized in building custom web applications, e-commerce solutions, and APIs.",
             "Responsible for the full project lifecycle, from requirement gathering to deployment and maintenance."
@@ -241,6 +243,6 @@
   "navigation": [
     { "name": "About", "page": "about" },
     { "name": "Resume", "page": "resume" },
-    { "name": "Portfolio", "page": "portfolio" }
+    { "_name": "Portfolio", "page": "portfolio" }
   ]
 } 
