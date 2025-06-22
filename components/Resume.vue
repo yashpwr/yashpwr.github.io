@@ -3,21 +3,6 @@
     <header v-if="content.resume.title">
       <h2 class="h2 article-title">{{ content.resume.title }}</h2>
     </header>
-    <section class="timeline" v-if="content.resume.education">
-      <div class="title-wrapper">
-        <div class="icon-box">
-          <i class="fa-solid fa-graduation-cap"></i>
-        </div>
-        <h3 v-if="content.resume.education.title" class="h3">{{ content.resume.education.title }}</h3>
-      </div>
-      <ol class="timeline-list" v-if="content.resume.education.items && content.resume.education.items.length">
-        <li v-for="item in content.resume.education.items" :key="item.title" class="timeline-item">
-          <h4 v-if="item.title" class="h4 timeline-item-title">{{ item.title }}</h4>
-          <span v-if="item.date">{{ item.date }}</span>
-          <p v-if="item.description" class="timeline-text">{{ item.description }}</p>
-        </li>
-      </ol>
-    </section>
     <section class="timeline" v-if="content.resume.experience">
       <div class="title-wrapper">
         <div class="icon-box">
@@ -58,6 +43,21 @@
           <a v-if="cert.link" :href="cert.link" target="_blank">
             <h4 v-if="cert.title" class="h4 timeline-item-title">{{ cert.title }}</h4>
           </a>
+        </li>
+      </ol>
+    </section>
+    <section class="timeline" v-if="content.resume.education">
+      <div class="title-wrapper">
+        <div class="icon-box">
+          <i class="fa-solid fa-graduation-cap"></i>
+        </div>
+        <h3 v-if="content.resume.education.title" class="h3">{{ content.resume.education.title }}</h3>
+      </div>
+      <ol class="timeline-list" v-if="content.resume.education.items && content.resume.education.items.length">
+        <li v-for="item in content.resume.education.items" :key="item.title" class="timeline-item">
+          <h4 v-if="item.title" class="h4 timeline-item-title">{{ item.title }}</h4>
+          <span v-if="item.date">{{ item.date }}</span>
+          <p v-if="item.description" class="timeline-text">{{ item.description }}</p>
         </li>
       </ol>
     </section>
